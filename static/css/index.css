@@ -184,3 +184,9 @@ font-weight: bold;
 .container{
 height: 50%
 }
+
+.social-icon img {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.1em;
+}
