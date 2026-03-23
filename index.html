@@ -1,302 +1,341 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
-  <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="DESCRIPTION META TAG">
-  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
-  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
-  <meta property="og:url" content="URL OF THE WEBSITE"/>
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
-  <meta property="og:image" content="static/image/your_banner_image.png" />
-  <meta property="og:image:width" content="1200"/>
-  <meta property="og:image:height" content="630"/>
-
-
-  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
-  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
-  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <!-- Keywords for your paper to be indexed by-->
-  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  
+  <!-- SEO & Meta Tags -->
+  <meta name="description" content="Mehdi Cherti - Postdoc at Jülich Supercomputing Centre / LAION. Research on large-scale training, generative models, efficient learning, and OOD generalization.">
+  <meta name="keywords" content="Mehdi Cherti, LAION, Jülich, Machine Learning, Generative Models, Computer Vision, NLP, Scaling Laws">
+  <meta name="author" content="Mehdi Cherti">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-  <title>Mehdi Cherti</title>
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
-  rel="stylesheet">
-
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mehdidc.github.io/">
+  <meta property="og:title" content="Mehdi Cherti - Postdoc Researcher @ Jülich / LAION">
+  <meta property="og:description" content="Research on large-scale training, generative models, efficient learning, and OOD generalization.">
+  <meta property="og:image" content="https://mehdidc.github.io/static/images/og_banner.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://mehdidc.github.io/">
+  <meta name="twitter:title" content="Mehdi Cherti - Postdoc Researcher @ Jülich / LAION">
+  <meta name="twitter:description" content="Research on large-scale training, generative models, efficient learning, and OOD generalization.">
+  <meta name="twitter:image" content="https://mehdidc.github.io/static/images/og_banner.png">
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://mehdidc.github.io/">
+  
+  <!-- Title -->
+  <title>Mehdi Cherti - Postdoc Researcher @ Jülich / LAION</title>
+  
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  
+  <!-- Stylesheets -->
   <link rel="stylesheet" href="static/css/bulma.min.css">
   <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
   <link rel="stylesheet" href="static/css/bulma-slider.min.css">
   <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
-  <link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="static/css/index.css">
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  
+  <!-- JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script defer src="static/js/fontawesome.all.min.js"></script>
   <script src="static/js/bulma-carousel.min.js"></script>
   <script src="static/js/bulma-slider.min.js"></script>
   <script src="static/js/index.js"></script>
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Mehdi Cherti",
+    "jobTitle": "Postdoctoral Researcher",
+    "employer": {
+      "@type": "Organization",
+      "name": "Jülich Supercomputing Centre (JSC) / LAION",
+      "url": "https://www.fz-juelich.de/en/ias/jsc"
+    },
+    "url": "https://mehdidc.github.io/",
+    "sameAs": [
+      "https://scholar.google.com/citations?user=JgOyYi8AAAAJ",
+      "https://github.com/mehdidc",
+      "https://www.linkedin.com/in/mehdi-cherti",
+      "https://x.com/mehdidc",
+      "https://huggingface.co/mehdidc"
+    ],
+    "alumniOf": {
+      "@type": "EducationalOrganization",
+      "name": "Université Paris Saclay"
+    },
+    "knowsAbout": [
+      "Large-scale training",
+      "Generative models",
+      "Transfer learning",
+      "Few-shot learning",
+      "Meta-learning",
+      "OOD generalization",
+      "Computer Vision",
+      "Natural Language Processing"
+    ]
+  }
+  </script>
 </head>
 <body>
 
+<main>
 <div class="container is-max-desktop">
-<div class="columns is-centered">
-<div class="column has-text-centered">
-<h1 class="title is-1 publication-title">Mehdi Cherti</h1>
-<div><strong>Postdoc at Jülich Supercomputing Centre (JSC) / LAION team, Germany</strong> </div>
-<div class="author">
-<img class="left_author" src="static/images/photo.png" alt="Mehdi Cherti - Postdoc at Jülich Supercomputing Centre (JSC) / LAION"></img>
-<div class="right_author">
-<p>
-I received my PhD in Machine Learning from Université Paris Saclay in 2018. 
-
-Currently, I am a postdoctoral researcher at <a href="https://www.fz-juelich.de/en/ias/jsc">Jülich Supercomputing Center (JSC)</a> and co-founder of <a href="https://laion.ai">LAION</a>.
-</p>
-
-<p>
-I am interested in large scale training, generative models, models that can learn efficiently (transfer learning, few-shot learning, meta-learning) and generalize out of their training distribution (OOD generalization), enabling broader and more robust applicability.
-</p>
-
-<div class="social">
-<a href="mailto:%6D%65%68%64%69%63%68%65%72%74%69@%67%6D%61%69%6C.%63%6F%6D" aria-label="Email Mehdi Cherti"><i class="fas fa-envelope"></i></a>
-<a href="https://scholar.google.com/citations?user=JgOyYi8AAAAJ&hl=en&oi=ao" aria-label="Mehdi Cherti Google Scholar"><i class="ai ai-google-scholar"></i></a>
-<a href="https://github.com/mehdidc" aria-label="Mehdi Cherti GitHub"><i class="fab fa-github"></i></a>
-<a href="https://www.linkedin.com/in/mehdi-cherti" aria-label="Mehdi Cherti LinkedIn"><i class="fab fa-linkedin"></i></a>
-<a href="https://x.com/mehdidc" aria-label="Mehdi Cherti X/Twitter"><i class="fab fa-twitter"></i></a>
-<a href="https://huggingface.co/mehdidc" class="social-icon" aria-label="Hugging Face profile"><img src="static/images/hf.png" alt="Hugging Face" /></a>
-
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-<hr />
-
-<div class="container is-max-desktop">
-<h1 class="big"> Selected Publications </h1>
-<div class="columns is-centered">
-<div class="publication">
-</div>
-</div>
-</div>
-
-
-
-<div class="container is-max-desktop">
-<div class="columns is-centered">
-<div class="publication">
-<img class="left" src="static/images/scaling_laws_comparison.jpg" alt="Scaling Laws for Robust Comparison paper figure"></img>
-<div class="right">
-<div>
-<a href="https://arxiv.org/abs/2506.04598">Scaling Laws for Robust Comparison of Open Foundation Language-Vision Models and Datasets</a>
-<p>
-Marianna Nezhurina, Tomer Porian, Giovanni Pucceti, Tommie Kerssies, Romain Beaumont, <b>Mehdi Cherti</b>, Jenia Jitsev
-</p>
-<strong>NeurIPS 2025</strong>
-<p>
-<a class="paperlinks" href="https://github.com/LAION-AI/scaling-laws-for-comparison"><i class="fab fa-github"></i>Code</a>
-</p>
-</div>
-</div>
-</div>
-</div>
-
-<div class="container is-max-desktop">
-<div class="columns is-centered">
-<div class="publication">
-<img class="left" src="static/images/good_crepe.jpg" alt="CREPE benchmark bias investigation paper figure"></img>
-<div class="right">
-<div>
-<a href="https://arxiv.org/abs/2506.08227">A Good CREPE needs more than just Sugar: Investigating Biases in Compositional Vision-Language Benchmarks</a>
-<p>
-Vishaal Udandarao, <b>Mehdi Cherti</b>, Shyamgopal Karthik, Jenia Jitsev, Samuel Albanie, Matthias Bethge
-</p>
-Short version: <strong>Eval-FoMo 2 CVPR 2025 Workshop</strong> <br />
-<p>
-</p>
-</div>
-</div>
-</div>
-</div>
-
-
-<div class="container is-max-desktop">
-<div class="columns is-centered">
-<div class="publication">
-<img class="left" src="static/images/alice.jpeg" alt="Alice in Wonderland LLM reasoning breakdown paper figure"></img>
-<div class="right">
-<div>
-<a href="https://arxiv.org/abs/2406.02061">Alice in wonderland: Simple tasks showing complete reasoning breakdown in state-of-the-art large language models</a>
-<p>
-Marianna Nezhurina, Lucia Cipolina-Kun, <b>Mehdi Cherti</b>, Jenia Jitsev
-</p>
-<strong>Preprint (2024)</strong>
-<p>
-<a class="paperlinks" href="https://github.com/LAION-AI/AIW"><i class="fab fa-github"></i>Code</a> 
-</p>
-</div>
-</div>
-</div>
-</div>
-
-
-
-
-
-<div class="container is-max-desktop">
-<div class="columns is-centered">
-<div class="publication">
-<img class="left" src="static/images/openclip_scaling.png" alt="Reproducible scaling laws for contrastive language-image learning paper figure"></img>
-<div class="right">
-<div>
-<a href="https://arxiv.org/abs/2212.07143">Reproducible scaling laws for contrastive language-image learning</a>
-<p>
-<b>Mehdi Cherti</b>, Romain Beaumon, Ross Wightman, Mitchell Wortsman, Gabriel Ilharco, Cade Gordon, Christoph Schuhmann, Ludwig Schmidt, Jenia Jitsev
-</p>
-<strong>CVPR 2023</strong>
-<p>
-<a class="paperlinks" href="https://github.com/LAION-AI/scaling-laws-openclip"><i class="fab fa-github"></i>Code</a> /
-<a class="paperlinks" href="static/images/openclip-scalin-laws-poster-cvpr.png">Poster</a> / 
-<a class="paperlinks" href="https://speakerdeck.com/mehdidc/reproducible-scaling-laws-for-contrastive-language-image-learning">Slides</a> / 
-<a class="paperlinks" href="https://youtu.be/QFNt52y6IK4">Video</a> 
-</p>
-</div>
-</div>
-</div>
-</div>
-
-
-<div class="container is-max-desktop">
-<div class="columns is-centered">
-<div class="publication">
-<img class="left" src="static/images/laion.jpeg" alt="LAION-5B dataset paper figure"></img>
-<div class="right">
-<div>
-<a href="https://arxiv.org/abs/2210.08402">LAION-5B: An open large-scale dataset for training next generation image-text models</a>
-<p style=>
-Christoph Schuhmann, Romain Beaumont, Richard Vencu, Cade Gordon, Ross Wightman, <b>Mehdi Cherti</b>, Theo Coombes, Aarush Katta, Clayton Mullis, Mitchell Wortsman, Patrick Schramowski, Srivatsa Kundurthy, Katherine Crowson, Ludwig Schmidt, Robert Kaczmarczyk, Jenia Jitsev
-</p>
-
-<p>
-<strong>NeurIPS 2022 Datasets and Benchmarks track</strong> 
-(<a href="https://blog.neurips.cc/2022/11/21/announcing-the-neurips-2022-awards/">Outstanding paper award</a>)
-</p>
-
-<p>
-<a class="paperlinks" href="https://openreview.net/forum?id=M3Y74vmsMcY">OpenReview</a> /
-<a class="paperlinks" href="static/images/laion5b-poster-neurips.png">Poster</a> / 
-<a class="paperlinks" href="https://slideslive.com/38992572/laion5b-an-open-largescale-dataset-for-training-next-generation-imagetext-models?ref=recommended">Video</a> 
-</p>
-
-</div>
-</div>
-</div>
-</div>
-
-
-
-<div class="container is-max-desktop">
-<div class="columns is-centered">
-<div class="publication">
-<img class="left" src="static/images/chex.png" alt="Large-scale pre-training transfer learning medical images paper figure"></img>
-<div class="right">
-<div>
-<a href="https://arxiv.org/abs/2106.00116">Effect of large-scale pre-training on full and few-shot transfer learning for natural and medical images
-</a>
-<p style>
-<b>Mehdi Cherti</b>, Jenia Jitsev
-</p>
-
-<p>
-Short version: <strong>Medical Imaging Meets NeurIPS 2021 Workshop</strong> <br />
-Long version: <strong>IJCNN 2021</strong> 
-</p>
-
-<p>
-<a class="paperlinks" href="https://github.com/SLAMPAI/large-scale-pretraining-transfer"><i class="fab fa-github"></i>Code</a> /
-<a class="paperlinks" href="static/images/laion5b-poster-neurips.png">Poster</a>
-</p>
-
-</div>
-</div>
-</div>
-</div>
-
-
-
-<div class="container is-max-desktop">
-<div class="columns is-centered">
-<div class="publication">
-<img class="left" src="static/images/out_of_class.jpg" alt="Out-of-class novelty generation paper figure"></img>
-<div class="right">
-<div>
-<a href="https://openreview.net/pdf?id=r1QXQkSYg">
-Out-of-class novelty generation
-</a>
-<p>
-<b>Mehdi Cherti</b>, Balázs Kégl, Akın Kazakçı
-</p>
-
-<p>
-<strong>ICLR 2017 workshop</strong> <br />
-</p>
-
-<p>
-<a class="paperlinks" href="https://github.com/mehdidc/ae_gen"><i class="fab fa-github"></i>Code</a> /
-<a class="paperlinks" href="https://huggingface.co/spaces/mehdidc/ae_gen">Web</a> /
-<a class="paperlinks" href="static/pdfs/poster_outofclass_iclr.pdf">Poster</a>
-</p>
-
-</div>
-</div>
-</div>
-</div>
-
-<div class="container is-max-desktop">
-<div class="columns is-centered">
-<div class="publication">
-<img class="left" src="static/images/drug.png" alt="De novo drug design with deep generative models paper figure"></img>
-<div class="right">
-<div>
-<a href="https://openreview.net/pdf?id=SkkC41HYl">
-De novo drug design with deep generative models: an empirical study
-</a>
-<p>
-<b>Mehdi Cherti</b>, Balázs Kégl, Akın Kazakçı
-</p>
-
-<p>
-<strong>ICLR 2017 workshop</strong> <br />
-</p>
-</div>
-</div>
-</div>
-</div>
-
-
-<hr />
-
-<div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
+  <div class="columns is-centered">
+    <div class="column has-text-centered">
+      <h1 class="title is-1 publication-title">Mehdi Cherti</h1>
+      <div><strong>Postdoc at Jülich Supercomputing Centre (JSC) / LAION team, Germany</strong> </div>
+      <div class="author">
+        <img class="left_author" src="static/images/photo.png" alt="Mehdi Cherti - Postdoc at Jülich Supercomputing Centre (JSC) / LAION" loading="lazy">
+        <div class="right_author">
           <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>.
-             <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
+            I received my PhD in Machine Learning from Université Paris Saclay in 2018. 
+            Currently, I am a postdoctoral researcher at <a href="https://www.fz-juelich.de/en/ias/jsc">Jülich Supercomputing Center (JSC)</a> and co-founder of <a href="https://laion.ai">LAION</a>.
           </p>
-
+          <p>
+            I am interested in large scale training, generative models, models that can learn efficiently (transfer learning, few-shot learning, meta-learning) and generalize out of their training distribution (OOD generalization), enabling broader and more robust applicability.
+          </p>
+          <div class="social">
+            <a href="mailto:%6D%65%68%64%69%63%68%65%72%74%69@%67%6D%61%69%6C.%63%6F%6D" aria-label="Email Mehdi Cherti"><i class="fas fa-envelope"></i></a>
+            <a href="https://scholar.google.com/citations?user=JgOyYi8AAAAJ&hl=en&oi=ao" aria-label="Mehdi Cherti Google Scholar"><i class="ai ai-google-scholar"></i></a>
+            <a href="https://github.com/mehdidc" aria-label="Mehdi Cherti GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/mehdi-cherti" aria-label="Mehdi Cherti LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://x.com/mehdidc" aria-label="Mehdi Cherti X/Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://huggingface.co/mehdidc" class="social-icon" aria-label="Hugging Face profile"><img src="static/images/hf.png" alt="Hugging Face" loading="lazy" /></a>
+          </div>
         </div>
       </div>
     </div>
   </div>
-  </body>
-  </html>
+</div>
+</main>
+
+<hr />
+
+<div class="container is-max-desktop">
+  <h2 class="big">Selected Publications</h2>
+  <div class="columns is-centered">
+    <div class="publication"></div>
+  </div>
+</div>
+
+
+
+<div class="container is-max-desktop">
+  <div class="columns is-centered">
+    <div class="publication">
+      <img class="left" src="static/images/scaling_laws_comparison.jpg" alt="Scaling Laws for Robust Comparison paper figure" loading="lazy">
+      <div class="right">
+        <div>
+          <a href="https://arxiv.org/abs/2506.04598">Scaling Laws for Robust Comparison of Open Foundation Language-Vision Models and Datasets</a>
+          <p>
+            Marianna Nezhurina, Tomer Porian, Giovanni Pucceti, Tommie Kerssies, Romain Beaumont, <b>Mehdi Cherti</b>, Jenia Jitsev
+          </p>
+          <strong>NeurIPS 2025</strong>
+          <p>
+            <a class="paperlinks" href="https://github.com/LAION-AI/scaling-laws-for-comparison"><i class="fab fa-github"></i>Code</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="publication">
+        <img class="left" src="static/images/good_crepe.jpg" alt="CREPE benchmark bias investigation paper figure" loading="lazy">
+        <div class="right">
+          <div>
+            <a href="https://arxiv.org/abs/2506.08227">A Good CREPE needs more than just Sugar: Investigating Biases in Compositional Vision-Language Benchmarks</a>
+            <p>
+              Vishaal Udandarao, <b>Mehdi Cherti</b>, Shyamgopal Karthik, Jenia Jitsev, Samuel Albanie, Matthias Bethge
+            </p>
+            Short version: <strong>Eval-FoMo 2 CVPR 2025 Workshop</strong> <br />
+            <p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="publication">
+        <img class="left" src="static/images/alice.jpeg" alt="Alice in Wonderland LLM reasoning breakdown paper figure" loading="lazy">
+        <div class="right">
+          <div>
+            <a href="https://arxiv.org/abs/2406.02061">Alice in wonderland: Simple tasks showing complete reasoning breakdown in state-of-the-art large language models</a>
+            <p>
+              Marianna Nezhurina, Lucia Cipolina-Kun, <b>Mehdi Cherti</b>, Jenia Jitsev
+            </p>
+            <strong>Preprint (2024)</strong>
+            <p>
+              <a class="paperlinks" href="https://github.com/LAION-AI/AIW"><i class="fab fa-github"></i>Code</a> 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="publication">
+        <img class="left" src="static/images/openclip_scaling.png" alt="Reproducible scaling laws for contrastive language-image learning paper figure" loading="lazy">
+        <div class="right">
+          <div>
+            <a href="https://arxiv.org/abs/2212.07143">Reproducible scaling laws for contrastive language-image learning</a>
+            <p>
+              <b>Mehdi Cherti</b>, Romain Beaumon, Ross Wightman, Mitchell Wortsman, Gabriel Ilharco, Cade Gordon, Christoph Schuhmann, Ludwig Schmidt, Jenia Jitsev
+            </p>
+            <strong>CVPR 2023</strong>
+            <p>
+              <a class="paperlinks" href="https://github.com/LAION-AI/scaling-laws-openclip"><i class="fab fa-github"></i>Code</a> /
+              <a class="paperlinks" href="static/images/openclip-scalin-laws-poster-cvpr.png">Poster</a> / 
+              <a class="paperlinks" href="https://speakerdeck.com/mehdidc/reproducible-scaling-laws-for-contrastive-language-image-learning">Slides</a> / 
+              <a class="paperlinks" href="https://youtu.be/QFNt52y6IK4">Video</a> 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="publication">
+        <img class="left" src="static/images/laion.jpeg" alt="LAION-5B dataset paper figure" loading="lazy">
+        <div class="right">
+          <div>
+            <a href="https://arxiv.org/abs/2210.08402">LAION-5B: An open large-scale dataset for training next generation image-text models</a>
+            <p style=>
+              Christoph Schuhmann, Romain Beaumont, Richard Vencu, Cade Gordon, Ross Wightman, <b>Mehdi Cherti</b>, Theo Coombes, Aarush Katta, Clayton Mullis, Mitchell Wortsman, Patrick Schramowski, Srivatsa Kundurthy, Katherine Crowson, Ludwig Schmidt, Robert Kaczmarczyk, Jenia Jitsev
+            </p>
+            <p>
+              <strong>NeurIPS 2022 Datasets and Benchmarks track</strong> 
+              (<a href="https://blog.neurips.cc/2022/11/21/announcing-the-neurips-2022-awards/">Outstanding paper award</a>)
+            </p>
+            <p>
+              <a class="paperlinks" href="https://openreview.net/forum?id=M3Y74vmsMcY">OpenReview</a> /
+              <a class="paperlinks" href="static/images/laion5b-poster-neurips.png">Poster</a> / 
+              <a class="paperlinks" href="https://slideslive.com/38992572/laion5b-an-open-largescale-dataset-for-training-next-generation-imagetext-models?ref=recommended">Video</a> 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="publication">
+        <img class="left" src="static/images/chex.png" alt="Large-scale pre-training transfer learning medical images paper figure" loading="lazy">
+        <div class="right">
+          <div>
+            <a href="https://arxiv.org/abs/2106.00116">Effect of large-scale pre-training on full and few-shot transfer learning for natural and medical images
+            </a>
+            <p style>
+              <b>Mehdi Cherti</b>, Jenia Jitsev
+            </p>
+            <p>
+              Short version: <strong>Medical Imaging Meets NeurIPS 2021 Workshop</strong> <br />
+              Long version: <strong>IJCNN 2021</strong> 
+            </p>
+            <p>
+              <a class="paperlinks" href="https://github.com/SLAMPAI/large-scale-pretraining-transfer"><i class="fab fa-github"></i>Code</a> /
+              <a class="paperlinks" href="static/images/laion5b-poster-neurips.png">Poster</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="publication">
+        <img class="left" src="static/images/out_of_class.jpg" alt="Out-of-class novelty generation paper figure" loading="lazy">
+        <div class="right">
+          <div>
+            <a href="https://openreview.net/pdf?id=r1QXQkSYg">
+              Out-of-class novelty generation
+            </a>
+            <p>
+              <b>Mehdi Cherti</b>, Balázs Kégl, Akın Kazakçı
+            </p>
+            <p>
+              <strong>ICLR 2017 workshop</strong> <br />
+            </p>
+            <p>
+              <a class="paperlinks" href="https://github.com/mehdidc/ae_gen"><i class="fab fa-github"></i>Code</a> /
+              <a class="paperlinks" href="https://huggingface.co/spaces/mehdidc/ae_gen">Web</a> /
+              <a class="paperlinks" href="static/pdfs/poster_outofclass_iclr.pdf">Poster</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="publication">
+        <img class="left" src="static/images/drug.png" alt="De novo drug design with deep generative models paper figure" loading="lazy">
+        <div class="right">
+          <div>
+            <a href="https://openreview.net/pdf?id=SkkC41HYl">
+              De novo drug design with deep generative models: an empirical study
+            </a>
+            <p>
+              <b>Mehdi Cherti</b>, Balázs Kégl, Akın Kazakçı
+            </p>
+            <p>
+              <strong>ICLR 2017 workshop</strong> <br />
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<hr />
+
+<div class="container">
+  <div class="columns is-centered">
+    <div class="column is-8">
+      <div class="content">
+        <p>
+          This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>.
+           <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+          Commons Attribution-ShareAlike 4.0 International License</a>.
+        </p>
+
+      </div>
+    </div>
+  </div>
+</div>
+</main>
+
+</body>
+</html>
