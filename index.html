@@ -1,30 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
-  <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="DESCRIPTION META TAG">
-  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
-  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
-  <meta property="og:url" content="URL OF THE WEBSITE"/>
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
-  <meta property="og:image" content="static/image/your_banner_image.png" />
-  <meta property="og:image:width" content="1200"/>
-  <meta property="og:image:height" content="630"/>
-
-
-  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
-  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
-  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <!-- Keywords for your paper to be indexed by-->
-  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  
+  <!-- SEO & Meta Tags -->
+  <meta name="description" content="Mehdi Cherti - Postdoc at Jülich Supercomputing Centre / LAION. Research on large-scale training, generative models, efficient learning, and OOD generalization.">
+  <meta name="keywords" content="Mehdi Cherti, LAION, Jülich, Machine Learning, Generative Models, Computer Vision, NLP, Scaling Laws">
+  <meta name="author" content="Mehdi Cherti">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-  <title>Mehdi Cherti</title>
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mehdidc.github.io/">
+  <meta property="og:title" content="Mehdi Cherti - Postdoc Researcher @ Jülich / LAION">
+  <meta property="og:description" content="Research on large-scale training, generative models, efficient learning, and OOD generalization.">
+  <meta property="og:image" content="https://mehdidc.github.io/static/images/og_banner.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://mehdidc.github.io/">
+  <meta name="twitter:title" content="Mehdi Cherti - Postdoc Researcher @ Jülich / LAION">
+  <meta name="twitter:description" content="Research on large-scale training, generative models, efficient learning, and OOD generalization.">
+  <meta name="twitter:image" content="https://mehdidc.github.io/static/images/og_banner.png">
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://mehdidc.github.io/">
+  
+  <!-- Title -->
+  <title>Mehdi Cherti - Postdoc Researcher @ Jülich / LAION</title>
+  
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  
+  <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
 
@@ -36,15 +48,53 @@
   href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="static/css/index.css">
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <!-- JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script defer src="static/js/fontawesome.all.min.js"></script>
   <script src="static/js/bulma-carousel.min.js"></script>
   <script src="static/js/bulma-slider.min.js"></script>
   <script src="static/js/index.js"></script>
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Mehdi Cherti",
+    "jobTitle": "Postdoctoral Researcher",
+    "employer": {
+      "@type": "Organization",
+      "name": "Jülich Supercomputing Centre (JSC) / LAION",
+      "url": "https://www.fz-juelich.de/en/ias/jsc"
+    },
+    "url": "https://mehdidc.github.io/",
+    "sameAs": [
+      "https://scholar.google.com/citations?user=JgOyYi8AAAAJ",
+      "https://github.com/mehdidc",
+      "https://www.linkedin.com/in/mehdi-cherti",
+      "https://x.com/mehdidc",
+      "https://huggingface.co/mehdidc"
+    ],
+    "alumniOf": {
+      "@type": "EducationalOrganization",
+      "name": "Université Paris Saclay"
+    },
+    "knowsAbout": [
+      "Large-scale training",
+      "Generative models",
+      "Transfer learning",
+      "Few-shot learning",
+      "Meta-learning",
+      "OOD generalization",
+      "Computer Vision",
+      "Natural Language Processing"
+    ]
+  }
+  </script>
 </head>
 <body>
 
+<main>
 <div class="container is-max-desktop">
 <div class="columns is-centered">
 <div class="column has-text-centered">
@@ -81,7 +131,7 @@ I am interested in large scale training, generative models, models that can lear
 <hr />
 
 <div class="container is-max-desktop">
-<h1 class="big"> Selected Publications </h1>
+<h1 class="big">Selected Publications</h1>
 <div class="columns is-centered">
 <div class="publication">
 </div>
